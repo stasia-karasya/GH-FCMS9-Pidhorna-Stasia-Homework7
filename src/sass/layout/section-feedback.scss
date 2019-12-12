@@ -1,0 +1,19 @@
+.feedback-wrap {
+  display: flex;
+  padding: 100px 0;
+}
+.feedback-container {
+  text-align: $text-align;
+  width: 60%;
+  margin: auto;
+  .feedback-text {
+    text-align: $text-align;
+  }
+  .feedback-author {
+    text-align: $text-align;
+  }
+  .center-cite {
+    text-align: $text-align;
+    margin-bottom: 0;
+  }
+}

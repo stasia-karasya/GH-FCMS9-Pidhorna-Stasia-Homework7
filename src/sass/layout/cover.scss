@@ -1,0 +1,25 @@
+.main-screen {
+  height: 100vh;
+}
+h1.main-title {
+  text-align: $text-align;
+  padding-top: 30px;
+}
+.cover-paragraph {
+  text-align: $text-align;
+  max-width: 800px;
+  margin: 25px auto 75px;
+}
+.button-container {
+  text-align: $text-align;
+  margin: 50px auto;
+}
+.down-arrow {
+  display: block;
+  text-align: $text-align;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30px;
+  height: 30px;
+  margin-top: 80px;
+}

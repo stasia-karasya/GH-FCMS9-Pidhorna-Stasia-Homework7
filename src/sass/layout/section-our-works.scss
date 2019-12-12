@@ -1,0 +1,54 @@
+.works-container {
+  text-align: $text-align;
+}
+.visible {
+  text-align: $text-align;
+}
+.works-paragraph {
+  margin: 0 auto 50px;
+  max-width: 460px;
+  text-align: $text-align;
+}
+.works-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  max-height: 860px;
+  .img-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    position: relative;
+    margin: auto;
+    width: 30%;
+    .works-img {
+      min-height: 360px;
+      max-width: 360px;
+      margin: 15px;
+    }
+    .hover-background {
+      min-width: 360px;
+      min-height: 360px;
+      position: absolute;
+      top: 15px;
+      left: -1px;
+      display: none;
+      .hover-title {
+        text-align: $text-align;
+        position: absolute;
+        top: 50px;
+        left: 70px;
+      }
+      .hover-text {
+        text-align: $text-align;
+        position: absolute;
+        top: 120px;
+        left: 15px;
+      }
+    }
+    &:hover .hover-background {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.feedback {
+  background-blend-mode: $main-background-blend-mode;
+  background-image: url("../img/background-woman.jpg");
+  background-position: $main-background-position;
+  background-color: $main-background-color;
+}
+.feedback-text {
+  font-size: 25px;
+  line-height: $main-line-height;
+  font-weight: $main-font-weight;
+  font-style: italic;
+  color: $light-text-color;
+}
+.feedback-author {
+  font-size: 18px;
+  line-height: $main-line-height;
+  color: $light-text-color;
+  font-weight: $semi-bold-font-weight;
+  font-style: normal;
+}

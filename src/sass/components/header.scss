@@ -1,0 +1,19 @@
+.hamburger-menu {
+  & span.menu-line,
+  & span.menu-line::before,
+  & span.menu-line::after {
+    background-color: $light-text-color;
+  }
+  & span.menu-line::before,
+  & span.menu-line::after {
+    content: '';
+  }
+  &:hover {
+    background-color: $accent-color;
+  }
+}
+.menu-written {
+  font-size: $main-font-size;
+  color: $light-text-color;
+  font-weight: $main-font-weight;
+}

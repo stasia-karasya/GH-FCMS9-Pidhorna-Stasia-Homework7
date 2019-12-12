@@ -1,0 +1,26 @@
+.abilities-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px 0;
+  .abilities-wrapper {
+    display: inline-block;
+    width: 25%;
+    .abilities-icon-border {
+      width: 120px;
+      height: 120px;
+      padding: 30px;
+      margin-left: 65px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .abilities-title {
+      text-align: $text-align;
+    }
+    .abilities-paragraph {
+      text-align: $text-align;
+      padding: 0 20px;
+    }
+  }
+}

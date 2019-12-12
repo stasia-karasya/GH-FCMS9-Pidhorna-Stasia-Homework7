@@ -1,0 +1,39 @@
+.subscribe-container {
+  background-blend-mode: $main-background-blend-mode;
+  background-image: url("../img/background-tablet-cofeecup.jpg");
+  background-position: $main-background-position;
+  background-color: $main-background-color;
+  .newsletter-subscribe {
+    border-radius: $basic-border-radius;
+    border: 1px solid $transparency;
+    font-family: $main-font;
+    font-size: $main-font-size;
+    line-height: $main-line-height;
+    font-weight: 300;
+    color: $dark-text-color;
+  }
+}
+.hello-form {
+  background-blend-mode: $main-background-blend-mode;
+  background-image: url("../img/background-city.jpg");
+  background-position: $main-background-position;
+  background-color: $main-background-color;
+}
+h2.form-title {
+  color: $light-text-color;
+}
+p.form-paragraph {
+  color: $light-text-color;
+}
+.short-input {
+  border-radius: $basic-border-radius;
+  border: 1px solid $transparency;
+  box-sizing: border-box;
+  font-family: $main-font;
+}
+.message-area {
+  border-radius: $basic-border-radius;
+  border: 1px solid $transparency;
+  box-sizing: border-box;
+  font-family: $main-font;
+}

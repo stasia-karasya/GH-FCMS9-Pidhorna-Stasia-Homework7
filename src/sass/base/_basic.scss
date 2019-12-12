@@ -1,0 +1,18 @@
+body {
+  font-family: $main-font;
+  font-size: $main-font-size;
+  line-height: $main-line-height;
+  font-weight: $main-font-weight;
+  a {
+    text-decoration: none;
+  }
+}
+.clearfix:after {
+  content: '';
+  clear: both;
+  display: table;
+}
+.hidden {
+  margin: 0;
+  display: none;
+}

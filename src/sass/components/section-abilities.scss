@@ -1,0 +1,14 @@
+.abilities-icon-border {
+  border: 1px solid $main-button-border;
+  border-radius: 50%;
+}
+.abilities-title {
+  font-size: $main-font-size;
+  line-height: $main-line-height;
+  font-weight: $semi-bold-font-weight;
+  color: $dark-text-color;
+}
+.abilities-paragraph {
+  line-height: 26px;
+  color: $dark-text-color;
+}

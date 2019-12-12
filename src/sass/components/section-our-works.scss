@@ -1,0 +1,32 @@
+.visible {
+  font-size: 35px;
+  letter-spacing: 0;
+  line-height: $main-line-height;
+  font-weight: $semi-bold-font-weight;
+  color: $dark-text-color;
+}
+.works-paragraph {
+  font-size: $main-font-size;
+  letter-spacing: 0;
+  line-height: 30px;
+  color: $dark-text-color;
+}
+.works-img {
+  border: 1px solid $transparency;
+  border-radius: $basic-border-radius;
+}
+.hover-background {
+  background-color: rgba(247,96,14,0.7);
+  border: 1px solid $transparency;
+  border-radius: $basic-border-radius;
+  .hover-title {
+    font-size: 25px;
+    line-height: $main-line-height;
+    font-weight: $semi-bold-font-weight;
+    color: $light-text-color;
+  }
+  .hover-text {
+    line-height: 26px;
+    color: $light-text-color;
+  }
+}

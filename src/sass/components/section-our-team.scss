@@ -1,0 +1,33 @@
+.hover-wrap {
+  filter: grayscale(100%);
+  &:hover {
+    filter: grayscale(0%);
+  }
+  .greyscale {
+    border: 1px solid $transparency;
+    border-radius: 15px;
+    filter: grayscale(100%);
+    &:hover {
+      filter: grayscale(0%);
+      border-bottom: 5px solid $accent-color;
+    }
+  }
+  .staff-name {
+    font-size: 25px;
+    line-height: 10px;
+    color: $dark-text-color;
+    font-weight: $semi-bold-font-weight;
+  }
+  .staff-description {
+    line-height: 26px;
+    color: $dark-text-color;
+  }
+}
+.members-dot {
+  background-color: #c4c6c9;
+  border-radius: 50%;
+  &:hover {
+    background-color: $accent-color;
+    border-radius: 50%;
+  }
+}

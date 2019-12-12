@@ -1,0 +1,53 @@
+.subscribe-container {
+  padding: 100px 0;
+  .subscribe-form {
+    text-align: $text-align;
+    .newsletter-subscribe {
+      width: 560px;
+      padding: 0 20px;
+      margin: $basic-margin;
+    }
+  }
+}
+.hello-form {
+  text-align: $text-align;
+}
+.form-title {
+  padding-top: 100px;
+}
+.form-container {
+  max-width: 850px;
+  display: inline-block;
+  text-align: $text-align;
+  margin-bottom: 140px;
+  .application {
+    max-width: 830px;
+    margin: auto;
+    text-align: left;
+    .short-input {
+      width: 400px;
+      height: 50px;
+      padding: 0 20px;
+      margin: auto;
+    }
+    .email-input {
+      margin-right: 18px;
+    }
+    .message-area {
+      display: inline-block;
+      width: 830px;
+      height: 200px;
+      padding: 20px;
+      margin: 30px 0;
+    }
+    .hello-button {
+      margin: 0;
+    }
+  }
+  .social-media-list {
+    display: inline-block;
+    text-align: $text-align;
+    float: right;
+    margin-top: -45px;
+  }
+}

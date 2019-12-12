@@ -1,0 +1,30 @@
+@import 'normalize/import-now';
+
+@import 'utils/variables';
+
+@import 'base/basic';
+
+@import 'layout/grid';
+@import 'layout/cover';
+@import 'layout/header';
+@import 'layout/buttons';
+@import 'layout/icons';
+@import 'layout/section-abilities';
+@import 'layout/forms';
+@import 'layout/section-our-works';
+@import 'layout/section-feedback';
+@import 'layout/section-our-team';
+@import 'layout/footer';
+
+@import 'components/cover';
+@import 'components/header';
+@import 'components/buttons';
+@import 'components/icons';
+@import 'components/section-abilities';
+@import 'components/forms';
+@import 'components/section-our-works';
+@import 'components/section-feedback';
+@import 'components/section-our-team';
+@import 'components/footer';
+
+@import 'pages/home';
